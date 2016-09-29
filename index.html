@@ -62,39 +62,16 @@
 				<div class="row">
 					<div class="col-lg-12">
 						<div id="main-loader">
-							<center><h1>Loading Application</h1></center>
-							<div class="cssload-wrap" style="position: relative; top: 200px; ">
-								<div class="cssload-circle"></div>
-								<div class="cssload-circle"></div>
-								<div class="cssload-circle"></div>
-								<div class="cssload-circle"></div>
-								<div class="cssload-circle"></div>
-								<div class="cssload-circle"></div>
-								<div class="cssload-circle"></div>
-								<div class="cssload-circle"></div>
-								<div class="cssload-circle"></div>
-								<div class="cssload-circle"></div>
-								<div class="cssload-circle"></div>
-								<div class="cssload-circle"></div>
-								<div class="cssload-circle"></div>
-								<div class="cssload-circle"></div>
-								<div class="cssload-circle"></div>
-								<div class="cssload-circle"></div>
-								<div class="cssload-circle"></div>
-								<div class="cssload-circle"></div>
-								<div class="cssload-circle"></div>
-								<div class="cssload-circle"></div>
-								<div class="cssload-circle"></div>
-								<div class="cssload-circle"></div>
-								<div class="cssload-circle"></div>
-								<div class="cssload-circle"></div>
-								<div class="cssload-circle"></div>
-								<div class="cssload-circle"></div>
-								<div class="cssload-circle"></div>
-								<div class="cssload-circle"></div>
-								<div class="cssload-circle"></div>
-								<div class="cssload-circle"></div>
-							</div>
+							<center><h1 style="position: relative; top: 150px;">Loading Application</h1></center>
+							<div id="growthLoader" class="cssload-preloader cssload-loading" style="position: relative; top: 200px; ">
+									<span class="cssload-slice"></span>
+									<span class="cssload-slice"></span>
+									<span class="cssload-slice"></span>
+									<span class="cssload-slice"></span>
+									<span class="cssload-slice"></span>
+									<span class="cssload-slice"></span>
+								</div>
+							
 						</div>
 					</div>
 				</div>
@@ -104,9 +81,24 @@
 						<div class="row">
 							<div class="col-lg-12">
 								<center><h1>Wells Fargo Analytics</h1></center>
-								<p>Text.</p>
+								<p>Welcome to the Welss Fargo Analytics web page. This page was created for a MindSumo challenge hosted at <a href="https://www.mindsumo.com/contests/wells-fargo-2016">This Link</a>.
+								   The deliverables section contain all files for the competition, and the content of the files are used to populate this web page. This tool
+								   describes the analytical process that is used to analyze the dataset and creates graphing tools to compare columns based on different metrics.
+								   The tool serves as an exploratory tool for the dataset which can be used to draw conclusions on the data.
+								</p>
 							</div>
 						</div>
+						<div id="deliverables" class="row">
+							<div class="col-lg-12">
+								<center><h2>Deliverables</h2></center>
+								<p>All files are below which include a pdf of the deliverables, the excel document of the dataset, the sql import files, and a zip file of the code. The code is also hosted on GitHub.
+								
+								</p>
+							</div>
+						</div>
+						
+						
+						
 						<div class="row">
 							<div class="col-lg-12">
 								<div id="var1">
@@ -127,14 +119,6 @@
 									
 								</div>
 								<br>
-								<div id="growthLoader" class="cssload-preloader cssload-loading" style="display:none">
-									<span class="cssload-slice"></span>
-									<span class="cssload-slice"></span>
-									<span class="cssload-slice"></span>
-									<span class="cssload-slice"></span>
-									<span class="cssload-slice"></span>
-									<span class="cssload-slice"></span>
-								</div>
 								<div id="growthChartDiv">
 								
 								</div>
@@ -202,7 +186,7 @@
 				}, 2000);
 			setTimeout(function(){
 			   $("#stuff").fadeIn("slow");
-			}, 1500);
+			}, 2000);
 		});
 	</script>
 </body>

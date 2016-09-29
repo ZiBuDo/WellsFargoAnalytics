@@ -163,9 +163,33 @@ if($request == "1var"){
 	}else if($lin1 == "wf_outreach_flag_chan_iv"){
 		$min = 1;
 		$max = 5;
+	}else if($lin1 == "cust_outreach_ai"){
+		$min = 0;
+		$max = 34;
+	}else if($lin1 == "cust_outreach_aii"){
+		$min = 0;
+		$max = 103;
+	}else if($lin1 == "cust_outreach_aiii"){
+		$min = 0;
+		$max = 45;
+	}else if($lin1 == "cust_outreach_aiv"){
+		$min = 0;
+		$max = 25;
+	}else if($lin1 == "cust_outreach_av"){
+		$min = 0;
+		$max = 213;
+	}else if($lin1 == "cust_outreach_avi"){
+		$min = 0;
+		$max = 394;
+	}else if($lin1 == "cust_outreach_avii"){
+		$min = 0;
+		$max = 58;
+	}else if($lin1 == "cust_outreach_aviii"){
+		$min = 0;
+		$max = 51;
 	}else{
 		$min = 0;
-		$max = 400;
+		$max = 100;
 	}
 	
 	//create 400 steps between min and max with labels separate by pipe character for front end using y = mx + b
