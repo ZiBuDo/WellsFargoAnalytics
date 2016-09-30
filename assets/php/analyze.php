@@ -50,9 +50,9 @@ $stmt = $conn->prepare("DELETE FROM `WF2VARSTATS` WHERE 1");
 $stmt->execute();
 $stmt = $conn->prepare("DELETE FROM `WFGROWTHMODEL` WHERE 1");
 $stmt->execute();
+
 // Calculate basic stats for all areas such as mean, std. deviation, variance, sum
 // Start with Sum variables at 0, add to Stats Database
-// Calculate covariance for correlation coefficient for each column and enter into WF2VARSTATS table
 $count = 0;
 foreach($cols as $c){
 	$sum = 0;
